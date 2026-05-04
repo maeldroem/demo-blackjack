@@ -20,7 +20,7 @@ Milestones of implementation features, from fundamentals to nice-to-have feature
 
 - User sessions: Assign an ID to a new player, store it in the browser's local storage,
   and keep track of user data through this session ID.
-- 0-conf configuration file
+- 0-conf configuration file ⚙️
 - Card deck management: Given that the blackjack deck is composed of N 52-card decks,
   a card must not appear more than N times.
 - Deck shuffling
@@ -37,8 +37,8 @@ Milestones of implementation features, from fundamentals to nice-to-have feature
 
 ## Full game (M2)
 
-- Balance system: Tracking the user's credits.
-- Bets and bet-related operations: Doubling down, Split, Surrender, Insurance
+- Balance system 💰: Tracking the user's credits.
+- Bets and bet-related operations 💸: Doubling down, Split, Surrender, Insurance
 
 ## Extended game (M3)
 
@@ -63,18 +63,18 @@ See [this section of the Wikipedia article on Blackjack](https://en.wikipedia.or
 - Blackjack switch
 - Super Fun 21
 
-### Game stats (M3c)
+### Game stats (M3c) 📊
 
 - Number of games played
-- Balance evolution
+- Balance evolution 📉
 - Win/Loss ratio
 
 ### Ambiance and customization (M3d)
 
-- Sound effects
-- Casino ambiance (music, quiet conversation, machine/card noises)
-- Background customization
-- Card style
+- Sound effects 🎰
+- Casino ambiance 🎶: music, quiet conversation, machine/card noises
+- Background customization 🖼️
+- Card style 🃏
 
 ### Game
 
