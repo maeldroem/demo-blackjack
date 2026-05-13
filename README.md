@@ -99,6 +99,10 @@ The frontend is to be implemented with React (SSR), Tailwind, and TypeScript.
 | C# .NET            | TODO      |
 | Rust (axum)        | TODO      |
 
+## API Outline
+
+[See the dedicated document](./api-outline.md)
+
 ---
 
 <div align="center">
