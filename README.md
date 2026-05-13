@@ -25,15 +25,18 @@ Milestones of implementation features, from fundamentals to nice-to-have feature
   a card must not appear more than N times.
 - Deck shuffling
 - Card distribution
+- Game session management
 
 ## Fundamentals (M1)
 
 - Card value system (aces = 1 or 11, face cards = 10)
 - Choice dialogs: Hit/Stand
-- Blackjack\* card dealing system: Deal the cards to the player and virtual dealer,
+- Blackjack[^base_bj_rules] card dealing system: Deal the cards to the player and virtual dealer,
   track game status.
 
-\*: No hole card, original bets only (OBO), stand on all 17s (S17), 3:2 (150%) blackjack payout
+[^base_bj_rules]:
+    No hole card, original bets only (OBO), stand on all 17s (S17), 3:2 (150%) blackjack payout, 2 decks,
+    continuous shuffle
 
 ## Full game (M2)
 
@@ -76,12 +79,12 @@ See [this section of the Wikipedia article on Blackjack](https://en.wikipedia.or
 - Background customization 🖼️
 - Card style 🃏
 
-### Game
-
 # Implementations
 
 For containerization, Docker is used, though files will follow the generic name convention,
 (i.e. Containerfile instead of Dockerfile)
+
+For networking, nginx is used.
 
 ## Frontend
 
