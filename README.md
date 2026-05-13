@@ -103,6 +103,10 @@ The frontend is to be implemented with React (SSR), Tailwind, and TypeScript.
 
 [See the dedicated document](./api-outline.md)
 
+## Processes
+
+[See the dedicated document](./processes.md)
+
 ---
 
 <div align="center">
