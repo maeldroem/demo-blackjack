@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EAI6ynZ8Gr8=",
+  "success": true,
+  "projectFilePath": "/home/maeldroem/dev/demo-blackjack/apis/csharp-impl/DemoBlackjack/Api/Api.csproj",
+  "expectedPackageFiles": [
+    "/home/maeldroem/.nuget/packages/microsoft.aspnetcore.openapi/10.0.4/microsoft.aspnetcore.openapi.10.0.4.nupkg.sha512",
+    "/home/maeldroem/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/maeldroem/.nuget/packages/openapiui/1.1.0/openapiui.1.1.0.nupkg.sha512",
+    "/home/maeldroem/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
