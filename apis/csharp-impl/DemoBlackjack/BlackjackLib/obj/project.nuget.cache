@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DZWDuH63dnY=",
+  "success": true,
+  "projectFilePath": "/home/maeldroem/dev/demo-blackjack/apis/csharp-impl/DemoBlackjack/BlackjackLib/BlackjackLib.csproj",
+  "expectedPackageFiles": [
+    "/home/maeldroem/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
