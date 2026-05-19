@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 
-namespace BlackjackLib.Card;
+namespace BlackjackLib.CardSystem;
 
 public abstract record Rank
 {
@@ -24,7 +24,7 @@ public abstract record Rank
     public static Rank TryFromClassicalCardValue(byte cardValue) => cardValue switch
     {
         1 => new Rank.Ace(),
-        >= Rank.Numerical.Min and <= Rank.Numerical.Max => new Rank.Numerical(cardValue),
+        >= Rank.Numerical.Min and <= Rank.Numerical.Max => new Rank.Numerical(cardValue, new Numerical.UncheckedTag()),
         11 => new Rank.Jack(),
         12 => new Rank.Queen(),
         13 => new Rank.King(),

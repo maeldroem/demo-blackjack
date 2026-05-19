@@ -1,4 +1,4 @@
-namespace BlackjackLib.Card;
+namespace BlackjackLib.CardSystem;
 
 public enum Suit
 {

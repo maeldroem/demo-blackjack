@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 
-namespace BlackjackLib.Card;
+namespace BlackjackLib.CardSystem;
 
 public record Card(Suit Suit, Rank Rank)
 {
